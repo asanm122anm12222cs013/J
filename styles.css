@@ -1,0 +1,91 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Weather App Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading Style */
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Input and Button Styling */
+input {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    width: 85%;
+    padding: 12px;
+    background: #ff7eb3;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #ff5277;
+}
+
+/* Weather Result Box */
+#weatherResult {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Weather Text Styling */
+#weatherResult h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#weatherResult p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Weather Icon */
+#weatherResult img {
+    width: 80px;
+    margin: 10px 0;
+}
+
+/* Error Message */
+#errorMessage {
+    color: #ff4757;
+    font-weight: bold;
+    margin-top: 10px;
+}
